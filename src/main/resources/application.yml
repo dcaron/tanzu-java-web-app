@@ -9,3 +9,5 @@ management:
   endpoint:
     health:
       show-details: always
+hello:
+  greeting: "Greetings from local application.yml"
