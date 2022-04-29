@@ -7,13 +7,14 @@ metadata:
     app.kubernetes.io/part-of: tanzu-java-web-app
 spec:
   env:
-#    - name: HELLO_GREETING
-#      value: "Greetings from workload.yml"
     - name: HELLO_GREETING
-      valueFrom:
-        configMapKeyRef:
-          name: axonconfig
-          key:  axon.axonserver.servers
+      value: "Greetings from workload.yml"
+#      valueFrom:
+#        configMapKeyRef:
+#          key: GREETINGS
+#          name: tanzuconfig
+    - name: SPRING_PROFILES_ACTIVE
+        value: kubernetes
   params:
     - name: annotations
       value:
