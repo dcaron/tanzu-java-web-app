@@ -7,8 +7,8 @@ metadata:
     app.kubernetes.io/part-of: tanzu-java-web-app
 spec:
   env:
-    - name: HELLO_GREETING
-      value: "Greetings from workload.yml"
+#    - name: HELLO_GREETING
+#      value: "Greetings from workload.yml"
 #      valueFrom:
 #        configMapKeyRef:
 #          key: GREETINGS

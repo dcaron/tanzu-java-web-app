@@ -13,3 +13,8 @@ management:
       show-details: always
 hello:
   greeting: "Greetings from local 1 application.yml"
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.cloud.config: DEBUG
