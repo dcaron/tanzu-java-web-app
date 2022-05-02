@@ -2,7 +2,7 @@ spring:
   application:
     name: tanzu-java-web-app
   config:
-    import: optional:configserver:http://configserver.default.svc.cluster.local
+    import: optional:configserver:http://configserver:80/
 management:
   endpoints:
     web:
