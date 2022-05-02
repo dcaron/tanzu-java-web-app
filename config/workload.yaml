@@ -13,8 +13,8 @@ spec:
 #        configMapKeyRef:
 #          key: GREETINGS
 #          name: tanzuconfig
-    - name: SPRING_PROFILES_ACTIVE
-      value: kubernetes
+#    - name: SPRING_PROFILES_ACTIVE
+#      value: kubernetes
   params:
     - name: annotations
       value:
