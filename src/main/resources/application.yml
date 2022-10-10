@@ -12,7 +12,7 @@ management:
     health:
       show-details: always
 hello:
-  greeting: "Greetings from local 1 application.yml"
+  greeting: "Greetings from local application.yml"
 
 logging:
   level:
